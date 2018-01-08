@@ -79,7 +79,6 @@
 	/* 垂直居中，量高度，平分 */
 	margin-top: 22.5px;
 	float: left;
-
 }
 .nav-word{
 	height: 100px;
@@ -121,8 +120,6 @@ input{
 	top: 0;
 	right: 0;
 	border: 1px solid #ccc;
-
-
 }
 .smallpost span{
 	font-family: 'iconfont';
@@ -594,7 +591,6 @@ input{
 	margin-left: 50%;
 	position: relative;
 	left: -28px;
-	
 }
 .dot{
 	width: 6px;
@@ -650,7 +646,7 @@ input{
 	text-align: center;
 	color: #333;
 }
-.footer-service:hover,.footer-top-word:hover,.coll:hover{
+.footer-service:hover,.footer-top-word:hover,.coll:hover,.smallbiao:hover{
 	color: #ff6700;
 }
 .footer-service{
@@ -699,6 +695,11 @@ input{
 	border-left:1px solid #e0e0e0 ;
 	text-align: center;
 	color: #616161;
+}
+.smallbiao{
+	font-family: 'iconfont';
+	font-size: 20px;
+	color: #333;
 }
 .phone{
 	margin: 0 0 5px;
