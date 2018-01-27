@@ -1,10 +1,11 @@
-@font-face{
+
+ @font-face {
   font-family: 'iconfont';  /* project id 532550 */
-  src: url('https://at.alicdn.com/t/font_532550_wwxzhb4lqrveipb9.eot');
-  src: url('https://at.alicdn.com/t/font_532550_wwxzhb4lqrveipb9.eot?#iefix') format('embedded-opentype'),
-  url('https://at.alicdn.com/t/font_532550_wwxzhb4lqrveipb9.woff') format('woff'),
-  url('https://at.alicdn.com/t/font_532550_wwxzhb4lqrveipb9.ttf') format('truetype'),
-  url('https://at.alicdn.com/t/font_532550_wwxzhb4lqrveipb9.svg#iconfont') format('svg');
+  src: url('https://at.alicdn.com/t/font_532550_j8hyt7thknqdj9k9.eot');
+  src: url('https://at.alicdn.com/t/font_532550_j8hyt7thknqdj9k9.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_532550_j8hyt7thknqdj9k9.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_532550_j8hyt7thknqdj9k9.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_532550_j8hyt7thknqdj9k9.svg#iconfont') format('svg');
 }
 
 .head-buycar span{
@@ -274,6 +275,7 @@ input{
 .star-btn .star-btn-active:hover{
 	color: #ff6700;
 }
+
 .star-bottom{
 	width: 1226px;
 	height: 340px;
@@ -410,6 +412,39 @@ input{
 	margin-left: 14px;
 	padding-top: 34px;
 	margin-bottom: 14px;
+	z-index: 5;
+}
+.new_jiadian{
+	width: 64px;
+	height: 20px;
+	font-size: .12rem;
+	color: #fff;
+	text-align: center;
+	background-color: #83c44e;
+	position: relative;
+	top: 0px;
+	left: 50%;	
+	margin-left: -32px;
+	margin-bottom: 14px;
+}
+.video_open{
+	font-family: 'iconfont';
+	font-size: 26px;
+	color: #fff; 
+	z-index: 5;
+	position: absolute;
+	bottom: 5px;
+	left: 15px;
+	border-color: #fff;
+}
+.video_open:hover{
+	color: #ff6700;
+	
+}
+.jiadian-itemnew{
+	padding-top: 0px;
+	height: 293px; 
+	padding-bottom: 7px;
 }
 .jiadian-item1{
 	width: 150px;
@@ -459,12 +494,18 @@ input{
 	margin-top: 0;
 	color: #333;
 }
+.review-wordadd{
+	margin-bottom: 68px;
+}
+.review-wordadds{
+	margin-bottom: 50px;
+}
 .author{
 	height: 18px;
 	margin: 0px 28px 8px;
 	font-size: 12px;
 	color: #b0b0b0;
-	text-align: center;
+	margin-left: 30px;
 }
 .into{
 	display: block;
@@ -616,6 +657,9 @@ input{
 }
 .figures{
 	margin-bottom: 30px;
+	display: flex;
+	align-content: flex-end;
+	position: relative;
 }
 .video-word{
 	margin-bottom: 10px; 
